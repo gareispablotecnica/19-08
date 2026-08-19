@@ -2,15 +2,16 @@ import { StyleSheet, Text, View, ScrollView } from 'react-native'
 import React from 'react'
 import Header from '../Components/Header'
 import Tarjetas from '../Components/Tarjetas'
-
+import Footer from '../Components/Footer'
 
 const Home = () => {
     return (
         <View style={styles.app}>
+            <Header />
             <ScrollView contentContainerStyle={styles.container}>
-                <Header />
                 <Tarjetas />
             </ScrollView>
+            <Footer />
         </View>
 
     )
