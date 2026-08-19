@@ -28,15 +28,15 @@ export default Header
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        width: '100%',
     },
     Encabezado: {
         width: '100%',
         flexDirection: 'row',
-        justifyContent:'space-between',
+        justifyContent: 'space-between',
         borderRadius: 20,
         padding: 12,
-        backgroundColor:'#1D2128',
+        backgroundColor: '#1D2128',
         // Borde para definir el contorno (efecto de luz sutil)
         borderWidth: 1,
         borderColor: 'rgba(255, 255, 255, 0.1)',
