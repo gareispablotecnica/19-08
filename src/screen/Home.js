@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, ScrollView } from 'react-native'
 import React from 'react'
 import Header from '../Components/Header'
+import Tarjetas from '../Components/Tarjetas'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <View style={styles.app}>
             <ScrollView contentContainerStyle={styles.container}>
                 <Header />
+                <Tarjetas />
             </ScrollView>
         </View>
 
