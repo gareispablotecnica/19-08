@@ -14,13 +14,16 @@ export default Footer
 
 const styles = StyleSheet.create({
   footerContainer: {
-    backgroundColor: '#16181d', // Mismo tono oscuro de las tarjetas
+    backgroundColor: '#1D2128', // Mismo tono oscuro de las tarjetas
     borderTopWidth: 1,
     borderTopColor: '#26282e', // Borde sutil para separarlo del contenido
     paddingVertical: 16,
     paddingHorizontal: 20,
     alignItems: 'center',
     justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.1)',
+    borderRadius:10,
   },
   footerText: {
     color: '#ffffff',
